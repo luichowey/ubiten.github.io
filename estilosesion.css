@@ -1,0 +1,101 @@
+html {
+    font-family: Tilt Neon, 'Times New Roman', Times, serif;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
+
+/* CABECERA */
+header { 
+    height: 75px;
+    background-color: #4286f4;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    margin-bottom: 20px;
+}
+img {
+    padding-right: 10px;
+}
+h1 {
+    font-family: Roboto Slab, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+.subtitulo {
+    text-align: center;
+}
+.aviso {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    padding: 1rem;
+    border: 2px solid #808080;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: .2s all ease;
+}
+main:hover {
+    box-shadow: 0 0 7px 0 #cccccc;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #808080;
+    width: 220px;
+    transition: .2s all ease;
+}
+input:hover {
+    box-shadow: 0 0 5px 0 #808080;
+}
+input[type="submit"] {
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    border: 2px solid #1e5fc2;
+    background-color: #4286f4;
+}
+input[type="submit"]:hover {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #1e5fc2;
+    background-color: #1e5fc2;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:focus {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #1e5fc2;
+    background-color: #1e5fc2;
+    color: white;
+    cursor: pointer;
+}
+/* FOOTER */
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    bottom: 0;     
+}
+footer p {
+    margin-right: 10px;
+}

@@ -1,0 +1,156 @@
+html {
+    font-family: Tilt Neon, 'Times New Roman', Times, serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+/* CABECERA */
+header { 
+    height: 75px;
+    background-color: #1C9746;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+}
+img {
+    padding-right: 10px;
+}
+h1 {
+    font-family: Roboto Slab, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #F26521;
+    margin: .5rem;
+    border-radius: 8px;
+    border: 2px solid #af4b18;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3rem;
+}
+li {
+    margin-right: 10px;
+    border: 2px solid #af4b18;
+    border-radius: 5px;
+    padding: 4px;
+    transition: .2s all ease;
+}
+li:hover {
+    margin-right: 10px;
+    border: 2px solid #af4b18;
+    background-color: #af4b18;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+.subtitulo {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid #1C9746;
+    border-radius: 8px;
+    transition: .2s all ease;
+}
+main:hover {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid #1C9746;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 #1C9746;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid white;
+    width: 220px;
+    transition: .2s all ease;
+}
+input:hover {
+    box-shadow: 0 0 5px 0 #1C9746;
+}
+input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #1C9746;
+    background-color: white;
+}
+input[type="submit"]:hover {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #1C9746;
+    background-color: #1C9746;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:focus {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #1C9746;
+    background-color: #1C9746;
+    color: white;
+    cursor: pointer;
+}
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+.radios {
+    border: 2px solid #1C9746;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+}
+.generos {
+    width: auto;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background-color: #1C9746;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    bottom: 0; 
+}
+
+footer p {
+    margin-right: 10px;
+}
+
+/* PHP */
+.aviso {
+    text-align: center;
+}
